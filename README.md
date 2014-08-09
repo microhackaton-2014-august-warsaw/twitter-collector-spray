@@ -9,4 +9,4 @@ $ sbt
 > ~re-start
 ```
 
-Now go to http://localhost:8002/ping and that's it!
+Now go to http://localhost:8002/pings and that's it!

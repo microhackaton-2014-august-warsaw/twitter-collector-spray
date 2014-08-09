@@ -41,7 +41,7 @@ object SprayMicroservice extends App with SimpleRoutingApp {
 
   val log = Logging(system, SprayMicroservice.getClass)
   val driver = new MongoDriver
-  val connection = driver.connection(List("localhost"))
+  val connection = driver.connection(List("mongo.microhackathon.pl:27017"))
   val db = connection("sprayMicroservice")
   val pings: BSONCollection = db("pings")
 
